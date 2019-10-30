@@ -38,6 +38,9 @@ control_plane_count = 3
 // The number of compute VMs to create. Default is 3.
 compute_count = 3
 
+// Network should be the logical switch name
+vm_network = "logical_switch_name"
+
 // URL of the bootstrap ignition. This needs to be publicly accessible so that the bootstrap machine can pull the ignition.
 bootstrap_ignition_url = "URL_FOR_YOUR_BOOTSTRAP_IGNITION"
 
